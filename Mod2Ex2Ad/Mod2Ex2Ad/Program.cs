@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*Average a non-specific number of scores
-Create a console application that will accept a number test scores(as calculated by the number of scores actually entered) between 0 and 100, 
-average them, and report a letter grade for the average based on the usual scale.For example, a teacher will input any number test scores, 
-and see the average numerical grade and the letter grade.
+Create a console application that will accept a number test scores(as calculated by the number of scores actually entered)
+between 0 and 100, average them, and report a letter grade for the average based on the usual scale.For example, a teacher 
+will input any number test scores, and see the average numerical grade and the letter grade.
 */
     namespace Mod2Ex2Ad
 {
@@ -17,45 +17,44 @@ and see the average numerical grade and the letter grade.
         {
             int i, n, sum = 0;
             double avg;
-            //string LetGrade;
-
-            //illicit input
+            
+            //ellicit input
             Console.Write("\n\n");
-            Console.Write("When done entering scores between 0 and 100 enter -1 : \n");
+            Console.Write("When done entering scores between 0 and 100 enter 999 : \n");
             Console.Write("----------------------------------------------");
             Console.Write("\n\n");
 
-            Console.Write("Input the scores : \n");
+            Console.Write("Input the scores. Enter 999 When all scores have been entered: \n");
             n = 1;
-            while (n != -1)
+            i = 1;
+            
+            //Test for sentinal value
+            while (n != 999) 
             {
-                
             Console.Write("Number-{0} :", i);
                 i++;
             n = Convert.ToInt32(Console.ReadLine());
-            sum += n;
+                if (n != 999)
+                    sum += n;
+                else
+                    sum = sum;
             }
+                                  
+            //calculate average and assign to variable avg
+            avg = sum / (i-2);
 
-            //for (i = 1; i != -1; i++)
-            //{
-            //    Console.Write("Number-{0} :", i);
-
-            //    n = Convert.ToInt32(Console.ReadLine());
-            //    sum += n;
-            //}
-            //calculate average and assign to varabila avg
-            avg = sum / 10.0;
-
+            //Display average score and letter grade
             Console.Write("\nThe Average is : {0}\n", avg);
             Console.WriteLine("Your letter grade is : {0}\n", (GetGrade(avg)));
         }  // end main
 
         //assigns a letter grade based on numerical value
         static char GetGrade(double LetGrade)
+
         {
             int avg = 0;
             char let;
-            Console.ReadKey();
+            
             if (avg >= 90 && avg <= 100)
             {
                 let = 'A';
