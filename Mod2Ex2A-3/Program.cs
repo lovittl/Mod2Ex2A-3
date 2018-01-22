@@ -10,11 +10,10 @@ namespace Mod2Ex2A_3
     {
         static void Main(string[] args)
 
-        {  // declare values to hold test values and perform calculation
+        {   // declare values to hold test values and perform calculation
             int i, n, ns, sum = 0;
             double avg;
-            
-
+ 
             //illicit input
             Console.Write("\n\n");
             Console.Write("Enter number of scores to be entered:");
@@ -23,8 +22,10 @@ namespace Mod2Ex2A_3
             Console.Write("----------------------------------------------");
             Console.Write("\n\n");
 
+            //collects the number of scores to be input
             Console.Write("Input the {0} scores : \n", ns);
 
+            //collects the scores and adds them up to be used in the avg calculation
             for (i = 1; i <= ns; i++)
             {
                 Console.Write("Number-{0} :", i);
