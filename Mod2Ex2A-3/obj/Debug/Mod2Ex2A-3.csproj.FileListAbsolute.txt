@@ -4,3 +4,9 @@ c:\users\palmp\source\repos\Mod2Ex2A-3\Mod2Ex2A-3\bin\Debug\Mod2Ex2A-3.exe
 c:\users\palmp\source\repos\Mod2Ex2A-3\Mod2Ex2A-3\bin\Debug\Mod2Ex2A-3.pdb
 c:\users\palmp\source\repos\Mod2Ex2A-3\Mod2Ex2A-3\obj\Debug\Mod2Ex2A-3.exe
 c:\users\palmp\source\repos\Mod2Ex2A-3\Mod2Ex2A-3\obj\Debug\Mod2Ex2A-3.pdb
+C:\Users\PALMP\source\repos\Mod2Ex2Ac\Mod2Ex2A-3\bin\Debug\Mod2Ex2A-3.exe.config
+C:\Users\PALMP\source\repos\Mod2Ex2Ac\Mod2Ex2A-3\bin\Debug\Mod2Ex2A-3.exe
+C:\Users\PALMP\source\repos\Mod2Ex2Ac\Mod2Ex2A-3\bin\Debug\Mod2Ex2A-3.pdb
+C:\Users\PALMP\source\repos\Mod2Ex2Ac\Mod2Ex2A-3\obj\Debug\Mod2Ex2A-3.csproj.CoreCompileInputs.cache
+C:\Users\PALMP\source\repos\Mod2Ex2Ac\Mod2Ex2A-3\obj\Debug\Mod2Ex2A-3.exe
+C:\Users\PALMP\source\repos\Mod2Ex2Ac\Mod2Ex2A-3\obj\Debug\Mod2Ex2A-3.pdb

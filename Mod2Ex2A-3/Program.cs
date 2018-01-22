@@ -32,8 +32,8 @@ namespace Mod2Ex2A_3
                 n = Convert.ToInt32(Console.ReadLine());
                 sum += n;
             }
-            //calculate average and assign to varabila avg
-            avg = sum / 10.0;
+            //calculate average and assign to variable avg
+            avg = sum / (i-1);
 
             Console.Write("\nThe Average is : {0}\n", avg);
             Console.WriteLine("Your letter grade is : {0}\n", (GetGrade(avg)));
@@ -43,7 +43,7 @@ namespace Mod2Ex2A_3
         {
             int avg = 0;
             char let;
-            Console.ReadKey();
+
             if (avg >= 90 && avg <= 100)
             {
                 let = 'A';
